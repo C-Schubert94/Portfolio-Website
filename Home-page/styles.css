@@ -1,0 +1,58 @@
+:root{
+    font-size: 16px;
+    --bg-color: #302f2f;
+    --font-color: #D3D3D3;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+    color: var(--font-color);
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: clamp(1.5rem, 0.5rem + 1.5vw, 4rem);
+    color: var(--font-color);
+}
+
+/* ***************************NAVBAR************************** */
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 0.5rem;
+}
+
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+/* ***************************ABOUT ME************************** */
+
+.about-title{
+    margin-left: 0.5rem;
+}
+
+.about-para{
+    width: 90vw;
+    margin-left: 0.5rem;
+}
