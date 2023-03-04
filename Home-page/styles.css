@@ -6,6 +6,9 @@
 
 body{
     background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p{
@@ -21,6 +24,11 @@ h3{
 }
 
 /* ***************************NAVBAR************************** */
+
+header{
+    background-color:rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
 
 nav ul{
     display: flex;
@@ -49,23 +57,25 @@ nav ul li a:hover{
 /* ***************************ABOUT ME************************** */
 
 .about-title{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 .about-para{
     width: 90vw;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+    line-height: 1.5rem;
 }
 
 /* ***************************PROJECTS************************** */
 
 .projects-title{
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 .projects-para{
     width: 90vw;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+    line-height: 1.5rem;
 }
 
 .project-container{
@@ -92,3 +102,69 @@ nav ul li a:hover{
     margin: 1rem auto;
     border-radius: 10px;
 }
+
+/* ***************************CONTACT ME************************** */
+
+.contact-title{
+    margin-left: 1rem;
+}
+
+.contact-para{
+    width: 90vw;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+form button{
+    width: 5rem;
+    height: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgba(0,0,0,0.8);
+    border: 0px;
+}
+
+input{
+    width: 15rem;
+    height: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #fff;
+}
+
+textarea{
+    width: 15rem;
+    min-height: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
