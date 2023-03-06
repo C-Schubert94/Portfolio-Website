@@ -200,6 +200,18 @@ textarea::placeholder{
     color: rgba(255, 255, 255, 0.7);
 }
 
+.icon-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+a img{
+  filter: invert(85%) sepia(86%) saturate(2%) hue-rotate(349deg) brightness(111%) contrast(101%);
+}
+
 @media (min-width: 768px) {
   /* ***************************ABOUT ME************************** */
   .about-section {
